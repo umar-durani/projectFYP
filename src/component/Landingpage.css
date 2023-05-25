@@ -1,0 +1,186 @@
+/* import popin */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.parent1 {
+  height: 100vh;
+  width: 100%;
+  padding-block: 60px;
+  padding-inline: 60px;
+  background-color: #f9f9f9;
+}
+.heading {
+  position: relative;
+  top: 40px;
+  line-height: 20px;
+}
+.heading h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.heading h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.dream-job {
+  color: blue;
+  font-weight: bold;
+}
+
+.heading p {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0.5;
+  width: 100%s;
+}
+
+/* Insert img */
+.img {
+  height: 400px;
+  object-fit: cover;
+  margin-top: -24px;
+  width: 550px;
+  /* border: 1px solid red; */
+}
+
+.icon-parent {
+  height: 60px;
+  width: 100%;
+  background-color: #f9f9f9;
+  /* margin-inline: 50px; */
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
+.inimg {
+  height: 40px;
+  width: 40px;
+}
+.microsoft-icon {
+  height: 40px;
+  width: 40px;
+}
+.gooel-icon {
+  height: 45px;
+  width: 45px;
+}
+.wordpress-icon {
+  height: 40px;
+  width: 40px;
+}
+.opera-icon {
+  height: 40px;
+  width: 40px;
+}
+.insta-icon {
+  height: 40px;
+  width: 40px;
+}
+
+/*  media querrry here */
+@media screen and (max-width: 768px) {
+  .img {
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 311px;
+  }
+  .icon-parent {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .img {
+    height: 230px;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 250px;
+  }
+  .icon-parent {
+    display: none;
+  }
+
+  .featured-sect p {
+    width: 100% !important;
+  }
+
+  .job-head {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .img {
+    height: 200px;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 190px;
+  }
+  .icon-parent {
+    display: none;
+  }
+
+  .featured-sect p {
+    width: 100% !important;
+  }
+  .job-head {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 369px) {
+  .img {
+    height: 164px;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 160px;
+  }
+  .icon-parent {
+    display: none;
+  }
+  .primarybtn {
+    display: none;
+  }
+
+  .featured-sect p {
+    width: 100% !important;
+  }
+  .job-head {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .img {
+    height: 164px;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 160px;
+  }
+  .heading h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .heading h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .icon-parent {
+    display: none;
+  }
+  .primarybtn {
+    display: none;
+  }
+
+  .featured-sect p {
+    width: 100% !important;
+  }
+  .job-head {
+    margin-top: 200px;
+  }
+}

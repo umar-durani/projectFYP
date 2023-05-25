@@ -1,0 +1,73 @@
+/* Insert parent2 */
+.parent2 {
+  height: 145vh;
+  width: 100%;
+  padding-block: 60px;
+  padding-inline: 60px;
+  background-color: #f9f9f9;
+}
+.job-head {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+}
+.job-head::after {
+  position: absolute;
+  content: "";
+  height: 7px;
+  width: 100px;
+  background-color: #0ef;
+  border-radius: 10px;
+  left: 0;
+  bottom: -8px;
+}
+.featured-sect p {
+  padding-top: 10px;
+  width: 50%;
+}
+.flex-feature {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  width: 100px;
+}
+.primarybtn {
+  transform: translate(-50px);
+}
+
+/* Insert card */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.flex-card {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-flag {
+  display: flex;
+  text-indent: 20px;
+}
+.stack h6 {
+  margin-top: -20px;
+  text-indent: 60px;
+}
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buton {
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.card {
+  margin-top: 13px;
+}
+.stack h6 {
+  font-weight: bold;
+}
